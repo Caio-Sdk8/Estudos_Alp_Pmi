@@ -1,0 +1,66 @@
+Váriaveis
+
+ladoUm, ladoDois, ladoTres, raio, numero, respostaMenu : inteiros
+menu : booleano
+
+Início
+
+    ESCREVA "Unidade 01 - EX01"
+
+    menu <-- verdade
+    ENQUANTO (menu) 
+        
+        ESCREVA "Selecione um Exercicio" & "1 - Perimetro Triangulo" & "2 - Area Retangulo" & "3 - Perimetro Circunferencia" & "4 - Divisão e soma" & "5 - Sair"
+        LEIA respostaMenu
+
+        SELECIONE CASO respostaMenu
+            CASO = 1
+
+              ESCREVA "Perímetro do Triangulo"
+
+              ESCREVA "Digite o valor do primeiro lado:"
+              LEIA ladoUm
+
+              ESCREVA "Digite o valor do segundo lado:"
+              LEIA ladoDois
+
+              ESCREVA "Digite o valor do terceiro lado:"
+              LEIA ladoTres
+
+              ESCREVA "O perimetro deste triangulo é: " & (ladoUm + ladoDois + ladoTres)
+
+            CASO = 2
+
+                ESCREVA "Area do Retangulo"
+
+                ESCREVA "Digite o valor do primeiro lado:"
+                LEIA ladoUm
+
+                ESCREVA "Digite o valor do segundo lado:"
+                LEIA ladoDois
+
+                ESCREVA "A area deste retangulo é: " & (ladoUm * ladoDois)
+
+            CASO = 3
+
+                ESCREVA "Perimetro de uma Circunferencia"
+
+                ESCREVA "Digite o valor do raio:"
+                LEIA raio
+
+                ESCREVA "A area desta circunferencia é: " & (2 * 3 * raio)
+            CASO = 4
+
+                ESCREVA "Divisão e soma"
+
+                ESCREVA "Digite o valor de um número, para que assim obtenha o resultado da soma entre o dobro dele e sua metade:"
+                LEIA numero
+
+                ESCREVA "O resultado dessa equação é: " & ((numero / 2) + (2 * numero))
+
+            CASO = 5
+
+                menu = falso
+        FIM SELECIONE
+    FIM ENQUANTO   
+FIM
