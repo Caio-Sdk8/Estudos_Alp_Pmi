@@ -19,7 +19,7 @@ Este repositório conta apenas e somente com atividades de sala e atividades pr�
     1 - Receba dois números, e calcule o resto da divisão do primeiro pelo segundo <br/>
     2 - Receba três números e calcule o resultado do dobro do primeiro mais 3 vezes o dobro do segundo <br/>
     3 - Dado um sistema computadorizado, receba o numero total de cadastros. Receba também o numero total de registros que pode ser exibido em uma página, efetue o calculo e descubra ao     final quantos links para as paginas serão exibidos <br/>
-    4 - Em um cinema temos setores de poltronas onde é possível acomodar uma determinada quantidade de pessoas. Cada pessoa necessita de 1 watt de som para uma audição agradável. Para       cada 12m2 temos a necessidade de uma caixa de som para atender essas pessoas nesse espaço. Dados os fatores descubra a quantidade máxima de potência necessária para o ambiente, a        quantidade de caixas e a quantidade de potencia que é necessário em cada caixa de sim <br/>
+    4 - Em um cinema temos setores de poltronas onde é possível acomodar uma determinada quantidade de pessoas. Cada pessoa necessita de 1 watt de som para uma audição agradável. Para       cada 12m2 temos a necessidade de uma caixa de som para atender essas pessoas nesse espaço. Dados os fatores descubra a quantidade máxima de potência necessária para o ambiente, a        quantidade de caixas e a quantidade de potencia que é necessário em cada caixa de som <br/>
 
 **Unidade 1: Exercicio 03** <br/>
     Criar quatro algoritmos (pseudocódigo, fluxograma e o código em VB) que faça: <br/>
